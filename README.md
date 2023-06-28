@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+Weather Widget for Planner App
+The Weather Widget is a valuable addition to the planner app, providing users with real-time weather information based on their location. This widget leverages the OpenWeather API to fetch accurate and up-to-date weather data, allowing users to make informed decisions and plan their activities accordingly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features and Functionality:
 
-## Available Scripts
+Location-based Weather: The Weather Widget utilizes the user's browser location to automatically fetch weather information specific to their current location. This eliminates the need for manual input and ensures accurate weather data.
 
-In the project directory, you can run:
+Real-time Updates: The widget dynamically updates the weather information, providing users with the latest temperature, humidity, wind speed, and a concise description of the current weather conditions.
 
-### `npm start`
+User-friendly Display: The weather data is presented in a visually appealing and easy-to-understand format within the planner app. Users can quickly glance at the widget to get an overview of the current weather conditions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to Use the Weather Widget:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Access the Planner App: Open the planner app on your device or web browser.
 
-### `npm test`
+Allow Location Access: When prompted, grant the app permission to access your browser's location. This enables the widget to fetch weather data specific to your current location.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+View the Weather Widget: Within the planner app interface, locate the Weather Widget. It will display the current temperature, humidity, wind speed, and a brief description of the weather conditions.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By incorporating the Weather Widget into the planner app, users can efficiently organize their schedules while taking into account the ever-changing weather conditions. It enhances the user experience by providing relevant and timely weather information directly within the app interface.

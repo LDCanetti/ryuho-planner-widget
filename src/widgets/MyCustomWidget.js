@@ -2,13 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faCloud, faCloudSun, faCloudRain, faSnowflake, faBolt } from '@fortawesome/free-solid-svg-icons';
 
-const WeatherWidget = () => {
+const MyCustomWidget = () => {
   const [weatherData, setWeatherData] = useState(null);
 
   useEffect(() => {
     // Function to retrieve weather data based on latitude and longitude
     const getWeatherData = async (latitude, longitude) => {
-      const apiKey = '595a97c490abef2e1ed8f0541b0d0e1c'; // Replace with your OpenWeatherMap API key
+      const apiKey = '595a97c490abef2e1ed8f0541b0d0e1c';
       const apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=imperial`;
 
       try {
@@ -60,7 +60,7 @@ const WeatherWidget = () => {
   };
 
   return (
-    <div>
+    <div style={{ minWidth: 300 }}>
       {weatherData ? (
         <div>
           <div>
@@ -80,4 +80,4 @@ const WeatherWidget = () => {
   );
 };
 
-export default WeatherWidget;
+export default MyCustomWidget;
