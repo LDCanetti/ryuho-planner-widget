@@ -64,13 +64,13 @@ const MyCustomWidget = () => {
       {weatherData ? (
         <div>
           <div>
-            <p style={{ fontSize:"50px", }}>{weatherData.name}</p>
+            <p style={{ fontSize:"40px", }}>{weatherData.name}</p>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-            <p style={{fontSize: "90px"}}>{getWeatherIcon(weatherData.weather[0].main)}</p>
-              <p style={{fontSize: "50px"}}>{weatherData.main.temp}°F</p>
+            <p style={{fontSize: "80px"}}>{getWeatherIcon(weatherData.weather[0].main)}</p>
+              <p style={{fontSize: "40px"}}>{weatherData.main.temp}°F</p>
             </div>
           </div>
-          <p style={{fontSize: "30px"}}>{weatherData.weather[0].description}</p>
+          <p style={{fontSize: "20px"}}>{weatherData.weather[0].description}</p>
 
         </div>
       ) : (

@@ -1,4 +1,5 @@
-Weather Widget for Planner App
+Weather Widget for Planner App:
+
 The Weather Widget is a valuable addition to the planner app, providing users with real-time weather information based on their location. This widget leverages the OpenWeather API to fetch accurate and up-to-date weather data, allowing users to make informed decisions and plan their activities accordingly.
 
 Features and Functionality:
